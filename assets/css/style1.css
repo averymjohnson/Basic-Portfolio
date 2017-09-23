@@ -1,10 +1,10 @@
-header {
+#header {
 	padding: 30px;
 	width: 0 auto;
 	position: relative;
 	top: 0;
 	background-color: #ffffff;
-	border-bottom: 3px solid #cccccc;
+	border: 3px solid #cccccc;
 	left:0;
 	margin: 0 auto;
 }
@@ -29,7 +29,33 @@ h1 {
 }
 
 #contact {
-	color: black
-	
+	float: right;
+	clear: both;
+	margin-right: 100px;
 }
 
+img {
+	width: 300px;
+	height: 300px;
+	margin-top: 20px;
+}
+.container {
+	float: left;
+	width: 50%;
+	margin-left: 100px;
+	border: 3px solid #cccccc;
+}
+
+#bio-image {
+	float: left;
+}
+#main-bio {
+	float:left;
+	clear: both;
+	width: 70%;
+}
+
+h2 {
+	border-bottom: 1px solid #cccccc;
+	width: 30
+}
