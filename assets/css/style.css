@@ -8,6 +8,11 @@ body {
 	margin: auto;
 }
 
+.contain {
+	width: 960px;
+	margin: auto;
+}
+
 
 .header {
 	width: 100%;
@@ -25,7 +30,7 @@ body {
 	top: 0;
 	padding: 18px;
 	bottom: 0;
-	margin-left: 273px;
+	margin-left: 0px;
 	font-family: 'georgia', times, times new roman, serif;
 	position: absolute;
 	margin-top: 5px;
@@ -41,7 +46,7 @@ body {
 	font-size: 14px;
 	margin-top: 20px;
 	font-family: 'arial','helvetica neue',helvetica, sans-serif;
-	margin-right: 264px;
+	margin-right: 230px;
 	position: absolute;
 	margin-bottom: 5px;
 }
@@ -102,7 +107,7 @@ hr {
 	height: 150px;
 	background-color: #ffffff;
 	top: 31px;
-	right: 0;
+	right: 0px;
 	position: absolute;
 	border: 1px solid #dddddd;
 }
